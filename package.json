@@ -4,15 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "npx convex codegen --url https://elegant-kiwi-847.convex.site && tsc -b && vite build",
-  "postinstall": "",
-  "preview": "vite preview",
-  "check": "biome check .",
-  "format": "biome check --write .",
-  "lint": "biome lint .",
-  "typecheck": "tsc --noEmit"
-},
+    "dev": "vite",
+    "build": "npx convex codegen --url https://elegant-kiwi-847.convex.site && tsc -b && vite build",
+    "postinstall": "",
+    "preview": "vite preview",
+    "check": "biome check .",
+    "format": "biome check --write .",
+    "lint": "biome lint .",
+    "typecheck": "tsc --noEmit"
+  },
   "dependencies": {
     "@convex-dev/auth": "^0.0.90",
     "@hookform/resolvers": "^5.2.2",
